@@ -1,0 +1,208 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  	scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+.heroimage{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+  background-image: url(hero.png);
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.75;
+}
+.info{
+  margin-top: 200px;
+margin-left: 60px;
+}
+h1{
+
+font-size: 40px;
+line-height: 20px;
+color: black;
+color: white;
+}
+.btn{
+  margin-top: 20px;
+  margin-left: 60px;
+  display: inline-block;
+    background-color: crimson;
+
+}
+h1 span{
+  color: red;;
+  font-weight: 100;
+
+}
+a{
+  justify-content:center;
+  text-align: center;
+  text-decoration:none;
+  font-size: 30px;
+
+  color: white;
+  padding: 18px 18px 18px 18px;
+
+}
+.heroimage::after{
+  content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: black;
+opacity: .7;
+z-index: -1;
+
+}
+.container{
+  flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.service-top{
+  max-width: 500px;
+  margin: 0 auto;
+}
+.title1{
+  letter-spacing: 3px;
+  font-weight: 10;
+  font-weight: lighter;
+}
+h1 span{
+  text-transform: uppercase;
+
+}
+.p1 {
+  color: black;
+}
+.r{
+  color: black;
+}
+.ter{
+
+  line-height: 25px;
+}
+.service-bottom{
+  display: flex;
+align-items: center;
+justify-content: center;
+flex: wrap;
+margin-top: 50px;
+
+}
+
+.cards{
+  flex-basis: 80%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+padding: 30px;
+border-radius: 10px;
+background-image: url(img-1.png);
+background-size: cover;
+position: relative;
+z-index: 1;
+margin: 5px 1%;;
+overflow: hidden;
+
+}
+.Web{
+  font-weight: 300;
+}
+.cards::after{
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+ .res{
+  color: black;
+}
+
+.pro-head{
+
+  text-align: center;
+
+}
+.allcards{
+
+  display: flex;
+border-radius: 10px;
+overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+max-width: 1500px;
+margin-left: 10%;
+margin-right: 10%;
+position: relative;
+
+
+}
+.cards1{
+
+  display: flex;
+  flex-direction: row;
+}
+.cards2{
+
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.card-top{
+   width: 50%;
+   align-items: flex-start;
+
+
+}
+.card-bottom{
+   width: 50%;
+  background-color: white;;
+  background-image: url(img-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.info{
+  margin-top: 100px;
+margin-bottom: 100px;
+}
+.card-top::before{
+  content: '';
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.23;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.info >h2{
+text-transform: uppercase;
+
+}
+.info{
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: white;
+}
